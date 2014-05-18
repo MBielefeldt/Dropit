@@ -21,6 +21,7 @@
 		0886D4C31928DD8B005492B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0886D4A51928DD8B005492B5 /* UIKit.framework */; };
 		0886D4CB1928DD8B005492B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0886D4C91928DD8B005492B5 /* InfoPlist.strings */; };
 		0886D4CD1928DD8B005492B5 /* DropitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0886D4CC1928DD8B005492B5 /* DropitTests.m */; };
+		08FF6EE51928EC9400AFA6B6 /* DropitBehaviour.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FF6EE41928EC9400AFA6B6 /* DropitBehaviour.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		0886D4C81928DD8B005492B5 /* DropitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DropitTests-Info.plist"; sourceTree = "<group>"; };
 		0886D4CA1928DD8B005492B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0886D4CC1928DD8B005492B5 /* DropitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropitTests.m; sourceTree = "<group>"; };
+		08FF6EE31928EC9400AFA6B6 /* DropitBehaviour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropitBehaviour.h; sourceTree = "<group>"; };
+		08FF6EE41928EC9400AFA6B6 /* DropitBehaviour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropitBehaviour.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				0886D4B31928DD8B005492B5 /* Main.storyboard */,
 				0886D4B61928DD8B005492B5 /* DropitViewController.h */,
 				0886D4B71928DD8B005492B5 /* DropitViewController.m */,
+				08FF6EE31928EC9400AFA6B6 /* DropitBehaviour.h */,
+				08FF6EE41928EC9400AFA6B6 /* DropitBehaviour.m */,
 				0886D4B91928DD8B005492B5 /* Images.xcassets */,
 				0886D4A81928DD8B005492B5 /* Supporting Files */,
 			);
@@ -256,6 +261,7 @@
 				0886D4B81928DD8B005492B5 /* DropitViewController.m in Sources */,
 				0886D4B21928DD8B005492B5 /* DropitAppDelegate.m in Sources */,
 				0886D4AE1928DD8B005492B5 /* main.m in Sources */,
+				08FF6EE51928EC9400AFA6B6 /* DropitBehaviour.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
