@@ -112,8 +112,6 @@
 		0886D4A71928DD8B005492B5 /* Dropit */ = {
 			isa = PBXGroup;
 			children = (
-				0886D4B01928DD8B005492B5 /* DropitAppDelegate.h */,
-				0886D4B11928DD8B005492B5 /* DropitAppDelegate.m */,
 				0886D4B31928DD8B005492B5 /* Main.storyboard */,
 				0886D4B61928DD8B005492B5 /* DropitViewController.h */,
 				0886D4B71928DD8B005492B5 /* DropitViewController.m */,
@@ -126,6 +124,8 @@
 		0886D4A81928DD8B005492B5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0886D4B01928DD8B005492B5 /* DropitAppDelegate.h */,
+				0886D4B11928DD8B005492B5 /* DropitAppDelegate.m */,
 				0886D4A91928DD8B005492B5 /* Dropit-Info.plist */,
 				0886D4AA1928DD8B005492B5 /* InfoPlist.strings */,
 				0886D4AD1928DD8B005492B5 /* main.m */,
@@ -200,6 +200,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Mads Bielefeldt";
 				TargetAttributes = {
+					0886D49D1928DD8B005492B5 = {
+						DevelopmentTeam = 8AQ2Q5KM77;
+					};
 					0886D4BE1928DD8B005492B5 = {
 						TestTargetID = 0886D49D1928DD8B005492B5;
 					};
@@ -377,6 +380,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dropit/Dropit-Prefix.pch";
 				INFOPLIST_FILE = "Dropit/Dropit-Info.plist";
@@ -390,6 +394,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dropit/Dropit-Prefix.pch";
 				INFOPLIST_FILE = "Dropit/Dropit-Info.plist";
@@ -457,6 +462,7 @@
 				0886D4D21928DD8B005492B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0886D4D31928DD8B005492B5 /* Build configuration list for PBXNativeTarget "DropitTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +471,7 @@
 				0886D4D51928DD8B005492B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
