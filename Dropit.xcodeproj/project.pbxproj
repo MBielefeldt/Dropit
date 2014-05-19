@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08082FB4192A6DEE006E5CD6 /* BezierPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08082FB3192A6DEE006E5CD6 /* BezierPathView.m */; };
 		0886D4A21928DD8B005492B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0886D4A11928DD8B005492B5 /* Foundation.framework */; };
 		0886D4A41928DD8B005492B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0886D4A31928DD8B005492B5 /* CoreGraphics.framework */; };
 		0886D4A61928DD8B005492B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0886D4A51928DD8B005492B5 /* UIKit.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08082FB2192A6DEE006E5CD6 /* BezierPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierPathView.h; sourceTree = "<group>"; };
+		08082FB3192A6DEE006E5CD6 /* BezierPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierPathView.m; sourceTree = "<group>"; };
 		0886D49E1928DD8B005492B5 /* Dropit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dropit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0886D4A11928DD8B005492B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0886D4A31928DD8B005492B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -116,10 +119,12 @@
 			isa = PBXGroup;
 			children = (
 				0886D4B31928DD8B005492B5 /* Main.storyboard */,
-				0886D4B61928DD8B005492B5 /* DropitViewController.h */,
-				0886D4B71928DD8B005492B5 /* DropitViewController.m */,
 				08FF6EE31928EC9400AFA6B6 /* DropitBehaviour.h */,
 				08FF6EE41928EC9400AFA6B6 /* DropitBehaviour.m */,
+				08082FB2192A6DEE006E5CD6 /* BezierPathView.h */,
+				08082FB3192A6DEE006E5CD6 /* BezierPathView.m */,
+				0886D4B61928DD8B005492B5 /* DropitViewController.h */,
+				0886D4B71928DD8B005492B5 /* DropitViewController.m */,
 				0886D4B91928DD8B005492B5 /* Images.xcassets */,
 				0886D4A81928DD8B005492B5 /* Supporting Files */,
 			);
@@ -260,6 +265,7 @@
 			files = (
 				0886D4B81928DD8B005492B5 /* DropitViewController.m in Sources */,
 				0886D4B21928DD8B005492B5 /* DropitAppDelegate.m in Sources */,
+				08082FB4192A6DEE006E5CD6 /* BezierPathView.m in Sources */,
 				0886D4AE1928DD8B005492B5 /* main.m in Sources */,
 				08FF6EE51928EC9400AFA6B6 /* DropitBehaviour.m in Sources */,
 			);
